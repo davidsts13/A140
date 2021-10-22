@@ -1,0 +1,111 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+  .top-wrapper h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .top-wrapper p {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  .btn {
+    width: 50%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+/* Layout untuk Tablet */
+@media (max-width: 1000px) {
+
+  .trip {
+    width: 30%;
+    margin-bottom: 25px;
+    position: relative;
+    padding-left: 75px;
+  }
+
+  .img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .heading h1 {
+    font-size: 28px;
+  }
+
+  .heading p1 {
+    font-size: 13px;
+  }
+
+  .view {
+    top: 10px;
+  }
+}
+
+/* Layout untuk Smartphone */
+@media (max-width: 670px) {
+  .trip {
+    width: 100%;
+    margin-bottom: 25px;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+
+  .img {
+    width: 100px;
+    height: 150px;
+  }
+
+  .heading h1 {
+    font-size: 25px;
+  }
+
+  .heading p1 {
+    font-size: 11px;
+  }
+
+  .trip-icon {
+    margin: 0 auto;
+  }
+
+  .trip-icon p {
+    font-size: 18px;
+  }
+
+  .view {
+    top: 10px;
+  }
+}
